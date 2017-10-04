@@ -10,6 +10,19 @@ namespace Week2_Day3
     {
         static void Main(string[] args)
         {
+            int answer = Add(5, 7);
+            Console.WriteLine(answer);
+            //or
+            //Console.WriteLine(Add(5,7));
         }
+
+        public static int Add(int firstNumber, int secondNumber)
+        {
+            int sum = firstNumber + secondNumber;
+
+            return sum;
+
+        }
+
     }
 }
